@@ -1,0 +1,17 @@
+node_modules/
+/node_modules
+npm-debug.log
+build/
+gh-pages/
+dist-modules/
+coverage/
+.eslintcache
+.env
+yarn.lock
+package-lock.json
+debug.log
+.vscode/
+yarn.lock
+yarn-error.log
+.vscode/
+.history/
