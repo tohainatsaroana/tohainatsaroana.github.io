@@ -1,35 +1,28 @@
 {
-  "homepage": "http://tohainatsaroana.github.io",
-  "name": "portfolio-website",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^6.3.0",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "aos": "^2.3.4",
-    "autoprefixer": "^9",
-    "normalize.css": "^8.0.1",
-    "postcss": "^7",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-feather": "^2.0.9",
-    "react-github-btn": "^1.2.1",
-    "react-icons": "^4.2.0",
-    "react-router-dom": "^5.3.0",
-    "react-scripts": "4.0.3",
-    "react-scroll-into-view": "^1.9.4",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat",
-    "web-vitals": "^1.0.1"
+    "@headlessui/react": "^1.7.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "gsap": "^3.10.4",
+    "i18next": "^21.9.1",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-i18next": "^11.18.5",
+    "react-icons": "^4.4.0",
+    "react-parallax-tilt": "^1.7.62",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "typewriter-effect": "^2.19.0",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "install gh-pages": "npm install gh-pages --save-dev",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -51,6 +44,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
   }
 }
